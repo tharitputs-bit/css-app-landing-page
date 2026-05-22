@@ -1,3 +1,111 @@
+body{
+    background-color: rgb(250, 245, 255);
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    border-radius: 99px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    width: 97vw;
+    margin: 30px auto 0 auto;
+    background-color: white;
+    font-weight: bold;
+    transition: none;
+}
+.logo{
+    color:black;
+    font-size: 40px;
+    padding-left: 150px;
+}
+.nav-wrapper{
+    display: flex;
+    margin: 0 100px;
+    list-style: none;
+}
+
+.nav-wrapper li {
+    font-size: 20px;
+    margin: 0 2rem;
+}
+li:hover{
+    text-decoration: underline;
+    text-decoration-color: #5e44ff;
+    color: #5e44ff;
+}
+.hero-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 200px;
+}
+.title p {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #786bff;
+    background: #f1eeff;
+    border-radius: 30px;
+    padding: 7px 23px 7px 18px;
+    border: none;
+    width: fit-content;
+    margin: 0 auto;
+    box-shadow: none;
+    letter-spacing: 0.02em;
+}
+.promotion-title h1{
+    font-size: 100px;
+    margin: 50px 0px 30px;
+    span{
+     color: #786bff;   
+    }
+}
+.promotion-subtitle{
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+.start-trial{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-start {
+    display: block;
+    margin: 40px auto 0 auto;
+    padding: 14px 36px;
+    width: 210px;
+    max-width: 90vw;
+    font-size: 18px;
+    font-weight: 500;
+    background: #232138;
+    color: #fff;
+    border-radius: 12px;
+    cursor: pointer;
+    text-align: center;
+    transition: background 0.2s, color 0.2s;
+    box-shadow: 0 2px 18px 0 rgba(45, 35, 66, 0.05);
+    text-decoration: none;
+}
+
+.btn-start:hover {
+    background: #786bff;
+    color: #232138;
+}
 /* Input + Footer section */
 .contact-footer-section {
     background-color: #f4f5fa;
