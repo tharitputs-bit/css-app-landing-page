@@ -8,6 +8,37 @@
     <title>Acme App</title>
   </head>
   <body>
+    <header>
+      <nav class="navbar">
+        <a href="#" class="logo" style="text-decoration: none;">
+          <p>Acme</p>
+        </a>
+        <div>
+          <ul class="nav-wrapper">
+            <li class="nav-link">Home</li>
+            <li class="nav-link">Feature</li>
+            <li class="nav-link">Pricing</li>
+            <li class="nav-link">Contact</li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="hero-section">
+        <article class="hero-card">
+          <div class="title">
+            <p>🌈 Acme Productivity App</p>
+          </div>
+          <div class="promotion-title">
+            <h1>Boost Your <span>Product</span>ivity</h1>
+          </div>
+          <div class="promotion-subtitle">
+            <p>Streamline your workflow with our all-in-one productivity app.</p>
+          </div class="start-trial">
+          <a href="#" class="btn-start">Start Free Trial</a>
+        </article>
+      </section>
+    </main>
     <!-- Features section -->
     <section class="features-section">
       <div class="features-container">
@@ -42,9 +73,42 @@
           <h2 class="feature-title">Intuitive Interface</h2>
           <p class="feature-desc">Our user-friendly interface makes it easy for anyone to streamline their workflow.</p>
         </article>
-  
       </div>
     </section>
     <!-- Features section end -->
+    <!-- Input + Footer section -->
+    <section class="contact-footer-section">
+      <div class="contact-card">
+        <h2>Get in Touch</h2>
+        
+        <form class="contact-form">
+          <div class="form-group">
+            <label>Name</label>
+            <input type="text" placeholder="Your Name">
+          </div>
+          
+          <div class="form-group">
+            <label>Email</label>
+            <input type="email" placeholder="youremail@example.com">
+          </div>
+          
+          <div class="form-group">
+            <label>Message</label>
+            <textarea placeholder="Your message..." rows="4"></textarea>
+          </div>
+          
+          <button type="submit" class="submit-btn">Submit</button>
+        </form>
+      </div>
+      <footer class="bottom-footer">
+        <p class="copyright">Acme productivity app ©2024</p>
+        <div class="footer-nav">
+          <a href="#">FAQ</a>
+          <a href="#">Terms</a>
+          <a href="#">AI Policy</a>
+          <a href="#">Pricing</a>
+        </div>
+      </footer>
+    </section>
   </body>
 </html>
