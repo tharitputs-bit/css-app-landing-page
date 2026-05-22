@@ -5,17 +5,19 @@
   body {
     margin: 0;
     padding: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Roboto', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #f4f5f8;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     min-height: 100vh;
   }
+
+  /* Features section */
   
   .features-section {
     width: 100%;
     padding: 40px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   
   .features-container {
@@ -91,3 +93,4 @@
       max-width: 100%;
     }
   }
+  /* Features section end */
